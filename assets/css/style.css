@@ -1,0 +1,43 @@
+#clearfix{
+    clear:both;
+}
+
+h1{
+
+    background-color:#4aaaa5;
+    height:75px;
+    width:280px;
+    margin:0 auto;
+    float:left;
+    text-align: center;
+    color: white;
+    Padding-top:20px;
+}
+
+.profile{
+    float:left;;
+    width:100px;
+    top:0;
+    right: 0;
+}
+
+body{
+    width:960px;
+    margin: 0 auto;
+}
+
+.test{
+background-color: black;
+height: 100%;
+width: 100%;
+}
+
+img{
+    float: left;
+    width:80px
+}
+p{
+    float:left;
+width: 450px;
+}
+ 
