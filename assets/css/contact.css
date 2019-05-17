@@ -5,22 +5,85 @@ body{
 .header{
     background-color: white;
     width: 100%;
-    height:50px;
-    /* margin: 0 auto; */
+    height:90px;
+    margin: 0 auto;
+    border-bottom:1px solid silver;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
 .container{
     width: 960px;
     margin: 0 auto;
+    height:100%;
+   /* float:left; */
 }
 #name{
     width: 250px;
     background-color: #4aaaa5;
     color:white;
+    height:60px;
+    text-align:center;
+    float:left;
+    padding-top: 30px;
+    /* position: fixed; */
+    
+    font-size: 26px;
 }
 #info{
-    width: 30%;
     float: right;
-    background-color: #4aaaa5;
-    display: inline;
-    color: grey
+    display: inline-block;
+    color: grey;
+    margin-top: 15px;
+}
+#about{
+    margin-right:15px;
+    border-right: 1px solid grey;
+    padding-right:5px;
+}
+#portfolio{
+    margin-right:15px;
+    border-right: 1px solid grey;
+    padding-right:5px;
+}
+#contactheader{
+    background-color: white;
+    width:960px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height:700px;
+    font-size: 24px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 35px;
+}
+h2{
+    color: #4aaaa5;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 3px solid lightgrey
+}
+#firstname{
+    margin-top: 100px;
+    
+}
+#email{
+    margin-top: 100px;
+}
+#message{
+    margin-top: 100px;
+}
+#title{
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 700px;
+    height: 35px;
+    font-size: 16px;
+}
+#onlinemail{
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 700px;
+    height: 35px;
+    font-size: 16px;
 }
