@@ -7,14 +7,13 @@ body{
     width:100%;
     margin:0 auto;
     background-color:white;
-    height:100px;
+    height:90px;
     border-bottom: 1px solid black;
 }
 .container{
     height:100%;
     width: 960px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 #name{
     background-color:#4aaaa5;
@@ -24,37 +23,55 @@ body{
     text-align: center;
     color: white;
     margin-bottom: 1px;
-    padding-top: 30px;
+    padding-top: 27px;
+    margin: 0;
 }
 .ground{
-    margin:0 auto;
+    /* margin:0 auto; */
     float: right;
-    display: block;
+    display: inline-block;
+    /* position: relative; */
+    margin-top:50px;
+    color:grey;
+}
+a{
+    color:grey;
+    text-decoration: none;
+}
+#profile{
+    border-right: 1px solid black;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+#Portfolio{
+    border-right: 1px solid black;
+    padding-right: 10px;
+    margin-right: 20px;
 }
 #clearfix{
     clear:both;
 }
+
 .summary{
     width:960px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     background:white;
-    height:550px;
-    
+    height:500px;
+    padding-left: 40px;
+    border-right-width: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
 }
-#aboutme{
-    background-color:white;
-    height:100%;
-    width:100%;
-}
-
 #me{
     color:#4aaaa5;
     font-size:26px;
     font-weight: bold;
     font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding-left: 5px;
-    
+    border-bottom: 4px solid #dddddd;
+    padding-bottom: 30px;
+    height: 30px;
 }
 p{
     float:left;
@@ -62,20 +79,29 @@ p{
     margin-left: 40px;
     line-height: 150%;
     font-size: 21px;
-    
+}
+#textalign{
+    width:auto;
+    font-size: 21px;
+    height:auto;
 }
 img{
-
     float: left;
-    width: 250px;
-    Height:290px;
-}
-
-h1 {
-    margin: 0;
+    width: 230px;
+    Height:240px;
+    margin-top: 20px;
 }
  #footer{
-    border-bottom:10px solid #4aaaa5;
-    height:10px;
-    width:1px;
+    border-top:10px solid #4aaaa5;
+    width:100%;
+    /* vertical-align: text-bottom; */
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    /* height:25px; */
+    color:white;
+    font-size: 12px;
+    padding-top: 50px;
+    text-align: center;
+    color: darkgrey;
  }
